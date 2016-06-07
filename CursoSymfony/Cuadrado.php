@@ -29,7 +29,7 @@ class Cuadrado extends Figura
     {
         return $this->ancho;
     }
-    
+
 
     /**
      * @param mixed $ancho
@@ -52,6 +52,6 @@ class Cuadrado extends Figura
 
     public function __toString()
     {
-        return 'Cuadrado [ ancho=' . $this->getAncho() . ', origen=' . $this->getOrigen() . ' ]';
+        return 'Cuadrado [ ancho:' . $this->getAncho() . ', origen:' . $this->getOrigen() . ' ]';
     }
 }

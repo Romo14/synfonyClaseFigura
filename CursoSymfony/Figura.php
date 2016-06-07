@@ -53,5 +53,9 @@ abstract class Figura
     abstract function area();
 
     abstract function perimetro();
+
+    public function distancia(Figura $figura) {
+        return $this->origen->distancia($figura->getOrigen());
+    }
     
 }

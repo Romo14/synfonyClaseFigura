@@ -8,7 +8,7 @@
 
 namespace CursoSymfony;
 
-require_once 'Cuadrado.php';
+require_once 'Punto.php';
 
 class Rectangulo extends Cuadrado
 {
@@ -49,7 +49,7 @@ class Rectangulo extends Cuadrado
 
     public function __toString()
     {
-        return 'Rectangulo [ Alto:' . $this->getAlto() . ', Ancho:' . $this->getAlto() . ', Punto:' . $this - $this->getOrigen() . ' ]';
+        return 'Rectangulo [ Alto:' . $this->getAlto() . ', Ancho:' . $this->getAncho() . ', ' . $this->getOrigen() . ' ]';
     }
 
 }
